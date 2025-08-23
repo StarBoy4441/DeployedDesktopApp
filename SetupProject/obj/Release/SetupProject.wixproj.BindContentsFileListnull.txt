@@ -1,0 +1,4 @@
+D:\TURAB\Task 1\WindowsFormsApp\bin\Debug\CsvHelper.dll
+D:\TURAB\Task 1\WindowsFormsApp\bin\Debug\Dapper.dll
+D:\TURAB\Task 1\WindowsFormsApp\bin\Debug\Newtonsoft.Json.dll
+D:\TURAB\Task 1\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe

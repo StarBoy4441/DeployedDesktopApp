@@ -1,0 +1,2 @@
+D:\TURAB\Task 1\SetupProject\bin\Debug\SetupProject.msi
+D:\TURAB\Task 1\SetupProject\bin\Debug\SetupProject.wixpdb

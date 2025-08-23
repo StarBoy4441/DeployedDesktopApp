@@ -1,0 +1,2 @@
+MainPackage=D:\TURAB\Task 1\WindowsApplicationProject\bin\AnyCPU\Debug\WindowsApplicationProject_1.0.1.0_AnyCPU_Debug.msix
+SymbolPackage=D:\TURAB\Task 1\WindowsApplicationProject\obj\Debug\Symbols\WindowsApplicationProject_1.0.1.0_AnyCPU_Debug.appxsym

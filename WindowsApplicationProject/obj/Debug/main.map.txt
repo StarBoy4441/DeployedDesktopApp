@@ -1,0 +1,16 @@
+[ResourceMetadata]
+"ResourceDimensions"		"scale-200"
+"ResourceDimensions"		"language-en-us"
+"ResourceDimensions"		"language-en-US"
+
+[Files]
+"D:\TURAB\Task 1\WindowsApplicationProject\obj\Debug\split.pri"			"resources.pri"
+"D:\TURAB\Task 1\WindowsApplicationProject\obj\Debug\PackageLayout\WindowsFormsApp\WindowsFormsApp.exe.config"			"WindowsFormsApp\WindowsFormsApp.exe.config"
+"D:\TURAB\Task 1\WindowsApplicationProject\obj\Debug\PackageLayout\WindowsFormsApp\WindowsFormsApp.exe"			"WindowsFormsApp\WindowsFormsApp.exe"
+"D:\TURAB\Task 1\WindowsApplicationProject\obj\Debug\PackageLayout\Images\Wide310x150Logo.scale-200.png"			"Images\Wide310x150Logo.scale-200.png"
+"D:\TURAB\Task 1\WindowsApplicationProject\obj\Debug\PackageLayout\Images\StoreLogo.png"			"Images\StoreLogo.png"
+"D:\TURAB\Task 1\WindowsApplicationProject\obj\Debug\PackageLayout\Images\Square44x44Logo.targetsize-24_altform-unplated.png"			"Images\Square44x44Logo.targetsize-24_altform-unplated.png"
+"D:\TURAB\Task 1\WindowsApplicationProject\obj\Debug\PackageLayout\Images\Square44x44Logo.scale-200.png"			"Images\Square44x44Logo.scale-200.png"
+"D:\TURAB\Task 1\WindowsApplicationProject\obj\Debug\PackageLayout\Images\Square150x150Logo.scale-200.png"			"Images\Square150x150Logo.scale-200.png"
+"D:\TURAB\Task 1\WindowsApplicationProject\obj\Debug\PackageLayout\Images\SplashScreen.scale-200.png"			"Images\SplashScreen.scale-200.png"
+"D:\TURAB\Task 1\WindowsApplicationProject\obj\Debug\PackageLayout\Images\LockScreenLogo.scale-200.png"			"Images\LockScreenLogo.scale-200.png"

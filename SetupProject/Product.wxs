@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+	<Product Id="*"
+			 Name="WindowsFormsApp"
+			 Language="1033"
+			 Version="1.0.0.0"
+			 Manufacturer="Turab"
+			 UpgradeCode="108ca0d7-842d-4ee0-b66f-4b0e849a43d7">
+
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of WindowsFormsApp is already installed." />
+
+		<MediaTemplate EmbedCab="yes" />
+
+		<Feature Id="ProductFeature" Title="WindowsFormsApp Feature" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<!-- Directory structure -->
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="WindowsFormsApp" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<!-- Components -->
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+
+			<!-- Main EXE -->
+			<Component Id="WindowsFormsApp.exe" Guid="*">
+				<File Id="WindowsFormsApp.exe"
+					  Name="WindowsFormsApp.exe"
+					  Source="$(var.WindowsFormsApp.TargetDir)WindowsFormsApp.exe" />
+			</Component>
+
+			<!-- Newtonsoft.Json DLL -->
+			<Component Id="Newtonsoft.Json.dll" Guid="*">
+				<File Id="Newtonsoft.Json.dll"
+					  Name="Newtonsoft.Json.dll"
+					  Source="$(var.WindowsFormsApp.TargetDir)Newtonsoft.Json.dll" />
+			</Component>
+
+			<!-- Dapper DLL -->
+			<Component Id="Dapper.dll" Guid="*">
+				<File Id="Dapper.dll"
+					  Name="Dapper.dll"
+					  Source="$(var.WindowsFormsApp.TargetDir)Dapper.dll" />
+			</Component>
+
+			<!-- CsvHelper DLL -->
+			<Component Id="CsvHelper.dll" Guid="*">
+				<File Id="CsvHelper.dll"
+					  Name="CsvHelper.dll"
+					  Source="$(var.WindowsFormsApp.TargetDir)CsvHelper.dll" />
+			</Component>
+
+		</ComponentGroup>
+	</Fragment>
+
+</Wix>
